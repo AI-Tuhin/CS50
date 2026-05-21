@@ -32,6 +32,8 @@ while True:
             break
         else:
             print("Type 1 or 2 or 3 to select.")
+
+print("github commit changes check from vs code")
         
         
         
