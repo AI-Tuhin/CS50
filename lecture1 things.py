@@ -1,3 +1,4 @@
+# this project for conditionals, if and else
 def signup():
     user = input()
     pwd = input()
@@ -36,7 +37,47 @@ while True:
 print("github commit changes check from vs code")
         
         
-        
-    
-    
+# this for others
 
+
+def divide(a,b):
+    print("a/b is", a/b)
+def modulo(a,b):
+    print("a%b is", a%b)
+
+divide(2,4)
+modulo(2,4)
+
+divide(4,2)
+modulo(4,2)
+
+#modulo operator return the vagsesh
+
+def odd_even(x):
+    if is_even(x):
+        print("even")
+    else:
+        print("odd")
+
+def is_even(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+a = int(input())
+odd_even(a)
+
+"""
+instead:
+def is_even(n):
+    return n % 2 == 0
+"""
+# match is same as if elif
+name = "tuhin"
+if name == "tuhin" or name == "tomal":
+    print(name)
+match name:
+    case "tuhin" | "tomal":
+        print(name)
+    case "tusher":
+        print("name")
